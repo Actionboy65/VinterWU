@@ -21,8 +21,11 @@ body {
 }
 
 header {
+  display: flex;
   grid-area: he;
   background-color: #4CAF50;
+  justify-content: center;
+
 }
 
 nav {
@@ -55,6 +58,9 @@ footer {
 
 img{
 
+height: 100px;
+align-self: center;
+justify-self: center;
 
 
 }
