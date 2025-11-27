@@ -1,0 +1,67 @@
+#boxar2 {
+  display: grid;
+  height: 100vh;
+  background-color: black;
+  gap: 0px;
+  overflow: hidden;
+  font-family: 'Times New Roman', Times, serif;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 2fr 1fr 1fr 70px;
+  grid-template-areas:
+    "he he he he"
+    "na na se se"
+    "as as ma ma"
+    "as as ma ma"
+    "fo fo fo fo";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+grid-area: he;
+background-color: teal;
+
+
+}
+
+nav{
+grid-area: na;
+background-color: red;
+
+
+}
+
+
+main{
+grid-area: ma;
+background-color: green;
+
+}
+
+
+section{
+grid-area: se;
+background-color: purple;
+
+
+
+}
+
+
+aside{
+grid-area: as;
+background-color: orange;
+
+
+}
+
+footer{
+grid-area: fo;
+background-color: blue;
+
+
+
+}

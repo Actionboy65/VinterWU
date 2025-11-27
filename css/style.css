@@ -64,6 +64,7 @@ main.index_main {
   background-position: center;
   align-items: center;
   justify-content: center;
+  
 
  
 }
@@ -71,9 +72,29 @@ main.index_main {
 
 
 aside {
+  display:flex;
   grid-area: as;  
-  background-color: blue;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("../img/gymtrainers.png");
+   background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 180% 100%;
+  font-size: 50px;
+  color: white;
+  font-family: "Rubik Vinyl", system-ui;
+  justify-content: center;    
+    align-items: center; 
+    
+    
+
+  
+    
+  
+  
+  
 }
+
 
 footer {
   grid-area: fo;
@@ -101,10 +122,90 @@ b{
   color: white;
    font-family: "Rubik Vinyl", system-ui;
    justify-content: center;
+   
   
 }
 
+b:hover{
+  display:flex;
+  font-size: 50px;
+  color: white;
+   font-family: "Rubik Vinyl", system-ui;
+   justify-content: center;
+   transform: scale(1.2);
+   color:#4CAF50;
+   
+  
+}
 
+a{
+text-decoration: none; 
+    color: inherit;  
+
+
+
+
+
+}
+a:hover{
+  
+  text-decoration: none; 
+    color: inherit;  
+    transform: scale(1.1);
+    color: #4CAF50;;
+    
+
+
+
+
+}
+
+
+
+
+
+
+
+main.index_main:hover {
+  display: flex;
+  grid-area: ma;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("../img/pexels-victorfreitas-841130.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  
+
+  
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
