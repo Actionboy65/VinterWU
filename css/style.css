@@ -5,7 +5,7 @@
   gap: 0px;
   overflow: hidden;
   font-family: 'Times New Roman', Times, serif;
-  grid-template-columns: 1vh 1fr 1fr 1vh;
+  grid-template-columns: 0.5fr 1fr 1fr 1vh;
   grid-template-rows: 100px 100px 1fr 2fr 70px;
   grid-template-areas:
     "he he he he"
@@ -26,25 +26,45 @@ header {
   background-color: #4CAF50;
   justify-content: center;
  border-radius: 5px;
+ height: 100px;
   
 
 }
 
 nav {
+  display: flex;
   grid-area: na;
   background-color: black;
   border: lime,solid,5px;
   border-radius: 20px;
+  color: white;
+  justify-content: center;
+  align-items:center;
+   contain: content;
+   
+
+  
+  
+  
+  
+  
+  
+  
+  
+
 }
 
-main {
- 
+main.index_main {
+  display: flex;
   grid-area: ma;
   background-image:
     linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
     url("../img/pexels-victorfreitas-841130.jpg");
   background-size: cover;
   background-position: center;
+  align-items: center;
+  justify-content: center;
+
  
 }
 
@@ -52,6 +72,7 @@ main {
 
 aside {
   grid-area: as;  
+  background-color: blue;
 }
 
 footer {
@@ -61,10 +82,18 @@ footer {
 }
 
 
-img{
 
-height: 100px;
+
+
+img{
+ width: 100px;
+ 
+
+
+
+
 }
+
 
 b{
   display:flex;
