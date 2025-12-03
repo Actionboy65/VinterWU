@@ -22,15 +22,17 @@ body {
 
 header{
 grid-area: he;
-background-color: teal;
+background-color:  #4CAF50;
 
 
 }
 
 nav{
+  display: flex;
 grid-area: na;
 background-color: red;
 
+justify-items: center;
 
 }
 
@@ -60,8 +62,33 @@ background-color: orange;
 
 footer{
 grid-area: fo;
-background-color: blue;
+background-color:  #4CAF50;
 
 
 
+}
+
+
+img{
+  
+ width: 300px;       
+  height: 300px;      
+  object-fit: cover;  
+  border-radius: 50%;
+  margin: 75px;
+
+
+
+
+
+}
+
+
+
+
+
+.trainer-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
