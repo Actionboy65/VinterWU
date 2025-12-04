@@ -1,7 +1,7 @@
 #boxar2 {
   display: grid;
   height: 100vh;
-  background-color: black;
+  background-color: rgb(26, 51, 28);
   gap: 0px;
   overflow: hidden;
   font-family: 'Times New Roman', Times, serif;
@@ -18,56 +18,62 @@
 body {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 header{
+  display: flex;
 grid-area: he;
 background-color:  #4CAF50;
-
+font-family: "Rubik Vinyl", system-ui;
+font-size: 500%;
+align-items: center;
+justify-content: center;
 
 }
 
 nav{
   display: flex;
 grid-area: na;
-background-color: red;
-
+background-color: rgb(8, 88, 35);
 justify-items: center;
-
+border-radius: 20px;
+margin: 20px;
+margin-top: 10px;
 }
-
 
 main{
 grid-area: ma;
 background-color: green;
-
+margin: 10px;
+border-radius: 20px;
 }
-
 
 section{
 grid-area: se;
-background-color: purple;
-
-
+background-color:  rgb(33, 206, 125);
+display: flex;
+justify-items: center;
+border-radius: 20px;
+margin: 20px;
+margin-top: 10px;
 
 }
-
 
 aside{
 grid-area: as;
-background-color: orange;
-
-
+background-color: green;
+margin: 10px;
+border-radius: 20px;
 }
 
 footer{
+  display: flex;
 grid-area: fo;
 background-color:  #4CAF50;
-
-
-
+justify-content: center;
+align-items: center;
 }
-
 
 img{
   
@@ -76,19 +82,39 @@ img{
   object-fit: cover;  
   border-radius: 50%;
   margin: 75px;
-
-
-
-
-
+  border-color:white;
+  border-style: solid;
 }
-
-
-
-
 
 .trainer-box {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+p{
+font-size: 200%;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 10px;
+}
+
+
+
+
+h1{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+h2{
+display: flex;
+font-family: font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+
+  
 }
