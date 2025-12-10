@@ -1,4 +1,4 @@
-#boxar2 {
+#boxar2{
   display: grid;
   height: 100vh;
   background-color: rgb(26, 51, 28);
@@ -110,7 +110,7 @@ align-items: center;
 
 h2{
 display: flex;
-font-family: font-family: "DM Serif Text", serif;
+font-family: "DM Serif Text", serif;
   font-weight: 400;
   font-style: normal;
 
