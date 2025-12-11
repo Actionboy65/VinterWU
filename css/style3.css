@@ -23,13 +23,20 @@ body {
 
 header { grid-area: he; 
     background-color: black; 
+    
 }
 
 nav{
   grid-area: na;
+  display: flex;
   background-color: green;
   border-color: limegreen;
   border-style: solid;
+  align-items: center;
+  justify-content: center;
+  font-size: 500%;
+  font-family: "Rubik Vinyl", system-ui;
+
  }
 
 main{
@@ -54,5 +61,6 @@ header img {
   max-height: 100%;
   margin-left: 40px;
 }
+
 
 

@@ -54,7 +54,7 @@ nav {
 
 }
 
-main.index_main {
+main{
   display: flex;
   grid-area: ma;
   background-image:

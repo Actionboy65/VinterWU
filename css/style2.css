@@ -21,6 +21,11 @@ body {
   color: white;
 }
 
+header img {
+  width: 100px;   /* or any size you want */
+  height: 100px;   /* keeps the aspect ratio */
+}
+
 header{
   display: flex;
 grid-area: he;
@@ -86,6 +91,8 @@ img{
   border-style: solid;
 }
 
+
+
 .trainer-box {
   display: flex;
   flex-direction: column;
@@ -113,6 +120,7 @@ display: flex;
 font-family: "DM Serif Text", serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 135%;
 
 
 
