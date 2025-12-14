@@ -41,19 +41,35 @@ nav{
 
 main{
    grid-area: ma; 
-   background-color: black; 
+   background-color: black;
+   display: flex;
+  justify-content: center;  
+  align-items: center;  
+
   }
 
 aside{
    grid-area: as;
+   display: flex;
    background-color: lime; 
-  }
+   writing-mode:sideways-lr;
+   justify-content: center;
+   align-items: center;
+   font-size: 75px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
 
 footer{ 
   grid-area: fo; 
+  display: flex;
   background-color: darkgreen;
   border-color: limegreen;
   border-style: solid;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5px;
+
 }
 
 
