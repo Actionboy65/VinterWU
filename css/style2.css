@@ -91,6 +91,14 @@ img{
   border-style: solid;
 }
 
+header img {
+  width: 100px;
+  height: auto;
+  border-radius: 0;
+  border: none;
+}
+
+
 
 
 .trainer-box {
